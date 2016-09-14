@@ -29,15 +29,18 @@ echo "Content-type: text/html"
 echo ""
 echo "Begin"
 
-echo ""
-echo "It must respond to the GET verb."
-echo Please, enter GET
-read VERB
-echo "Success! you entered $VERB !"
-
-if [ -n "${QUERY_STRING}" ] ; then 
+if [ -n "${QUERY_STRING}" ] ; then
    cat  ./${QUERY_STRING}
 fi
+
+echo '<pre>'
+    /usr/bin/env
+echo '</pre>'
+
+echo '<pre>'
+    /usr/bin/curl http://www.eharmony.com
+echo '</pre>'
+
 
 # Read the body -- if it is a post
 while read _post_line ; do
