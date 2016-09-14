@@ -6,3 +6,4 @@ To create a simple web application using simple CGI interface.
 3. index.html works as the home page.
 4. testRedirect.html is another html that shows a different page. This will be used to check if a link on the home page is working properly.
 5. design.css controls the overall colors, font design, text size on the .html using the .css
+6 simple.cgi is the main .cgi
